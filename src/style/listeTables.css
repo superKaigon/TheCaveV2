@@ -1,0 +1,19 @@
+.listeTable{
+    margin : auto;
+	margin-top: 3em;
+	margin-bottom: 3em;
+	list-style-type: none;
+}
+
+.right{
+    float: right;
+}
+
+.left{
+    float: left;
+}
+
+.imgTable {
+    width: 225px;
+	height: 214px;
+}

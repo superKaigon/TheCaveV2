@@ -1,0 +1,64 @@
+.modal1 {
+	position: fixed;
+	top: 10%;
+	left:75%;
+	right: 0%;
+	bottom: 63%;
+	border: 1px solid #ccc;
+	background: #fff;
+	overflow: auto;
+	border-radius: 4px;
+	outline: none;
+	padding: 20px;
+	display: block;
+	animation-duration: 250ms;
+	animation-name: slidein;
+	text-align: -webkit-center;
+}
+
+@keyframes slidein {
+	from {
+	  left: 75%; 
+	  right: 100%;
+	  top :10%;
+	  bottom:100%;
+	} 
+	to {
+		top: 10%;
+		left:75%;
+		right: 0%;
+		bottom: 63%;
+	}
+  }
+
+.modal2 {
+	position: fixed;
+	top: 10%;
+	left:75%;
+	right: 0%;
+	bottom: 50%;
+	border: 1px solid #ccc;
+	background: #fff;
+	overflow: auto;
+	border-radius: 4px;
+	outline: none;
+	padding: 20px;
+	display: block;
+	animation-duration: 250ms;
+	animation-name: slidein2;
+  }
+
+  @keyframes slidein2 {
+	from {
+	  left: 75%; 
+	  right: 100%;
+	  top :10%;
+	  bottom:100%;
+	} 
+	to {
+		top: 10%;
+		left:75%;
+		right: 0%;
+		bottom: 50%;
+	}
+  }
